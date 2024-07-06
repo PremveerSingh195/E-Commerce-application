@@ -12,7 +12,7 @@ function Logo() {
         width={50}
         className="rounded-3xl"
       />
-      <h2 className="text-xl font-bold">FILE SHOP</h2>
+      <h2 className="text-xl font-bold">BUYIMG</h2>
     </div>
   );
 }

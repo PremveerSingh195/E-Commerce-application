@@ -1,14 +1,17 @@
 import React from "react";
-import Logo from "@/app/components/Logo";
-import Searchbar from "./Searchbar";
-import SigninSignup from "./SigninSignup";
-import Cart from "./Cart";
+import Logo from "@/components/Logo";
+import Searchbar from "@/components/Searchbar";
+import SigninSignup from "@/components/SigninSignup";
+import Cart from "@/components/Cart";
+import Link from "next/link";
 
 function Navbar() {
   return (
     <div className="flex flex-row justify-between items-center">
       {/* LOGO */}
-      <Logo />
+      <Link href="/">
+        <Logo />
+      </Link>
       {/* Search bar */}
       <Searchbar />
       <div className="flex flex-row">

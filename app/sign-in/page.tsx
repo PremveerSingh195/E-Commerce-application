@@ -20,7 +20,7 @@ function Signin() {
             </button>
           </div>
           <p>
-            Don't have Account ?{" "}
+            Don&apos;t have Account ?{" "}
             <Link href="/sign-up" className="font-semibold text-blue-500">
               Sign up
             </Link>
